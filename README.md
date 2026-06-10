@@ -1,16 +1,25 @@
-## Hi there 👋
+# 🤖 SEO Health Bot
 
-<!--
-**tijaradz/tijaradz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Automatic SEO monitoring on Netlify.
 
-Here are some ideas to get you started:
+## Quick Start
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+1. `npm install`
+2. Create `.env.local` from `.env.example`
+3. `netlify functions:invoke seo-monitor`
+4. Push to GitHub
+5. Deploy on Netlify
+6. Add env variables in dashboard
+
+## Features
+
+✅ HTTP Status Check
+✅ JSON-LD Detection
+✅ Meta Tags Check
+✅ Health Score (0-100%)
+✅ Discord/Telegram Alerts
+✅ Automatic 24h Monitoring
+
+## Cost
+
+Free! ($0/month)

@@ -1,0 +1,17 @@
+{
+  "name": "seo-health-bot",
+  "version": "1.0.0",
+  "description": "Netlify SEO Monitor",
+  "main": "netlify/functions/seo-monitor.js",
+  "scripts": {
+    "dev": "netlify functions:invoke seo-monitor"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "license": "MIT"
+}
